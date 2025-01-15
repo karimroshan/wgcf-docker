@@ -1,5 +1,8 @@
 FROM alpine:3.17
 
+LABEL org.opencontainers.image.authors="karimroshan"
+LABEL org.opencontainers.image.source="https://github.com/karimroshan/wgcf-docker"
+LABEL org.opencontainers.image.url="https://github.com/karimroshan/wgcf-docker"
 
 RUN apk update -f \
   && apk --no-cache add -f \
